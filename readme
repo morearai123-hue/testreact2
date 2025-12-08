@@ -1,0 +1,19 @@
+#get repo
+git clone repo url
+
+
+#git init
+git init
+git add .
+git commit -m "test"
+git branch -M main
+git remote add origin url
+git push -u origin main
+
+#get code
+git pull
+
+#git push again
+git add .
+git commit -m "test"
+git push
